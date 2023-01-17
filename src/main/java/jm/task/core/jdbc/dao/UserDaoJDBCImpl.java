@@ -10,8 +10,8 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserDaoJDBCImpl implements UserDao {
-
+public class UserDaoJDBCImpl { //implements UserDao
+/*
     private final String CREATE = "CREATE TABLE IF NOT EXISTS users (id BIGINT PRIMARY KEY AUTO_INCREMENT, `name` VARCHAR(50), lastName VARCHAR(50), age TINYINT);";
     private final String DROP = "DROP TABLE IF EXISTS users;";
     private final String SAVE = "INSERT INTO users (`name`, lastName, age) VALUES (?, ?, ?);";
@@ -83,5 +83,5 @@ public class UserDaoJDBCImpl implements UserDao {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-    }
+    }*/
 }
